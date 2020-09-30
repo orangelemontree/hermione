@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+.body{
+  font-family:'Nanum Gothic', sans-serif;
+}
+
+.header {
+  height : 120px;
+  background-color:black;
+}
+
+.header-box {
+  color: white;
+  font-size:40px;
+  font-weight:bold;
+  width:1000px;
+  margin:0 auto;
+  background-color:black;
+  padding-top : 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+  text-align: left;
+}
+/*전체를 감싸는 맨 아래선만 보이는 박스*/
+.large-box {
+  width:1088px;
+  margin:0 auto;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+/*구성 요소*/
+.first-box {
+  margin: 0px 40px 0px 40px;
+  font : #000;
+  font-size: 20px;
+  font-weight : bold;
+  border-bottom : 1px solid #454545;
+}
+
+/*테이블 요소*/
+.second-box {
+ margin : 30px 40px 0px 40px;
+ font : #333;
+ font-size : 16px;
+ font-weight: bold;
+ padding : 0px 15px 0px 15px;
+ background-color:#f7f7f7;
+ border : 1px solid #d1d1d1;
+}
+
+.between-second-third-box {
+  margin: 0px 40px 0px 40px;
+  border: 1px solid #d1d1d1;
+}
+
+.table-element {
+  padding: 8.5px 0px 8.5px 0px;
+  width:320px;
+  margin: 10px 0 0 40px;
+  text-align: center;
+  display:inline-block;
+  border : 1px solid #d1d1d1;
+  font-size: 16px;
+}
+
+.table-element:hover {
+ border:#454545;
+ font-weight:bold;
+}
+
+.form-element{
+  padding: 8.5px;
+  width:320px;
+  display:inline-block;
+  margin : 10px auto;
+  text-align: center;
+  border : 1px solid #d1d1d1;
+  font-size: 16px;
+}
+
+.form-element:hover{
+  border:#454545;
+  font-weight:bold;
+}
+
+.list-element {
+  padding: 8.5px;
+  width:320px;
+  display:inline-block;
+  text-align: center;
+  border : 1px solid #d1d1d1;
+  margin: 10px 20px 0 0;
+  font-size: 16px;
+}
+
+.list-element:hover {
+   border:#454545;
+   font-weight:bold;
+}
+
+/*아동 사이즈*/
+.third-box{
+  margin: 0px 40px 0px 40px;
+  padding : 30px 30px 30px 30px;
+  font : #000;
+  font-size: 14px;
+  font-weight : bold;
+}
+
+.third-box table {
+  border-collapse:collapse;
+}
+
+.third-box th {
+  border : 1px solid #e4e4e4;
+  background-color:#fbfbfb;
+  font-size: 12px;
+  font: #555;
+  padding : 10px 40px 10px 40px;
+}
+
+.third-box td {
+  border : 1px solid #e4e4e4;
+  padding : 10px 10px 10px 10px;
+  text-align:center;
+}
+
+.fourth-box {
+  margin : 0px 40px 0px 40px;
+  padding : 30px 30px 30px 30px;
+  font : #000;
+  font-size: 14px;
+}
+
+.fourth-box table {
+  border-collapse: collapse;
+}
+
+.fourth-box th{
+  border-top: 2px solid #a5a5a5;
+  border-bottom: 1px solid #e4e4e4;
+  background-color:#fbfbfb;
+  padding : 10px 70px 10px 70px;
+  font : #555;
+  font - size : 12px;
+}
+
+.fourth-box td{
+  text-align: right;
+}
+
+.fourth-box tfoot {
+  border-top:1px solid #a5a5a5;
+  border-bottom:1px solid #e4e4e4;
+}
+
+.form-box {
+  margin : 30px 40px 0px 40px;
+  font : #333;
+  font-size : 16px;
+  font-weight: bold;
+  padding : 0px 15px 0px 15px;
+  background-color:#f7f7f7;
+  border : 1px solid #d1d1d1;
+}
+
+.form-element-box {
+  padding : 10px 10px 10px 10px;
+  margin: 0px 40px 0px 40px;
+  border: 1px solid #d1d1d1;
+}
+
+.inside-form-element-box {
+  background-color:#fbfbfb;
+  border : 1px solid #e4e4e4;
+  margin : 10px 10px 10px 10px;
+  font-size: 14px;
+  font-weight : bold;
+  font : #000;
+  padding : 10px;
+}
+
+.inside-form-element-box :focus {
+  font-size: 12px;
+  color : red;
+}
+
+.register {
+  border : 1px solid #000;
+  padding : 20px;
+}
+
+.register h5{
+  font-size : 14px;
+  color : #000;
+  font-weight : bold;
+  background : #fff;
+  padding : 5px;
+}
+
+.inside-register {
+  border : 1px solid #000;
+  padding : 20px;
+  background : #fbfbfb;
+}
+
+.form-contents h5 {
+  font-size : 14px;
+  font-weight : bold;
+  color : #000;
+}
+.tablename1 {
+  border : 1px solid #black;
+  color : #000;
+  font-weight : bold;
+}
+
+.tablename2{
+   border : 1px solid #black;
+   color : #000;
+   font-weight : bold;
+}
+
+.getnumber {
+  background : #4ec53d;
+    font-size : 16px;
+    color: #fff;
+}
+
+.submit {
+ border : 1px #08a600;
+}
+
+.gaip {
+  width : 900px;
+  height: 50px;
+  background : #4ec53d;
+  font-size : 16px;
+  color: #fff;
+}
+
+.list-element-box {
+  margin : 30px 40px 0px 40px;
+  font-size:16px;
+  color:#000;
+  font-weight: bold;
+  border : 1px solid #d1d1d1;
+  background: #f7f7f7;
+  padding: 5px;
+
+}
+
+.list-contents h6 {
+  font-size: 14px;
+  color : #000;
+  font-weight: bold;
+}
+
+/* 리스트 요소 전체 검정 라인 박스*/
+.list-contents {
+  margin : 0px 40px 100px 40px;
+  border : 1px solid #e4e4e4;
+  padding : 20px;
+}
+
+/* 리스트 요소 내부의 프로젝트를 감싸는 박스*/
+.inside-list-contents {
+  border : 1px solid #e4e4e4;
+  padding : 10px;
+  }
+/*프로젝트 글씨*/
+.list-dictionary h2 {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  text-align : center;
+}
+
+.list-dictionary dt {
+  font-size : 14px;
+  color : #000;
+  font-weight : bold;
+}
+/*파란 글씨*/
+.dictionary {
+  font-size : 12px;
+  color : #559bfa;
+}
+
+/*실시간 검색어 라인 박스*/
+.line-box-of-realtime {
+  width : 350px;
+  margin-right : auto;
+  border : 1px solid #e4e4e4;
+  padding : 10px;
+  }
+
+/*쿠키 이용 안내 감싸는 박스*/
+.inside-cookies {
+  border : 1px solid #e4e4e4;
+  padding : 10px;
+  }
+
+/*쿠키 안내 안의 웹툰 작품 파란 글씨*/
+.webtoon-work {
+  font-size : 12px;
+  color : #559bfa;
+  font-weight: bold;
+}
+
+/* 쿠키 안내 안의 유효기간 빨간 글씨*/
+.webtoon-period {
+  font-size : 12px;
+  color : #ec5336;
+}
+
+/*뉴스 감싸는 박스*/
+.inside-news {
+  border : 1px solid #e4e4e4;
+  padding : 10px;
+  }
+
+/*뉴스 썸네일 위치*/
+.news-image {
+ float:left;
+ padding : 40px;
+}
+
+/* 날씨 뉴스 파란글씨*/
+.weather-news-link{
+  font-size:14px;
+  color :#00c;
+  font-weight:bold;
+}
+/*날씨 뉴스 아래 부분 회색 라인*/
+.weather-news-contents p {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* 펫 뉴스 파란글씨*/
+.pet-news-link{
+  font-size:14px;
+  color:#00c;
+  font-wegiht:bold;
+}
+/*펫 뉴스 아래 부분 회색 라인*/
+.pet-news-contents p{
+  border-bottom: 1px solid #e4e4e4;
+}
+/* 복숭아 뉴스 파란 글씨*/
+.peach-news-link{
+  font-size:14px;
+  color :#00c;
+  font-weight:bold;
+}
+
+.address-box{
+  margin: 0 auto;
+  font-size : 12px;
+  color : #999;
+  text-align:center;
+  padding : 0px 0px 0px 0px;
+}
+.copyright-box {
+  font-size; 12px;
+  color: #000;
+  text-align:center;
+  padding : 0px 0px 0px 0px;
+}
